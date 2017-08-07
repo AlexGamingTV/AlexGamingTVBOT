@@ -1,19 +1,29 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+bot.editRole({
+	permissions: {
+		GENERAL_CREATE_INSTANT_INVITE: true,
+		VOICE_USE_VAD: false
+    GENERAL_CREATE_INSTANT_INVITE,
+	GENERAL_KICK_MEMBERS,
+	GENERAL_BAN_MEMBERS,
+	GENERAL_MANAGE_ROLES,
+	GENERAL_MANAGE_CHANNELS,
+	GENERAL_MANAGE_GUILD,
+	GENERAL_ADMINISTRATOR
 
-# Other files and folders
-.settings/
+	TEXT_READ_MESSAGES,
+	TEXT_SEND_MESSAGES,
+	TEXT_SEND_TSS_MESSAGES,
+	TEXT_MANAGE_MESSAGES,
+	TEXT_EMBED_LINKS,
+	TEXT_ATTACH_FILES,
+	TEXT_READ_MESSAGE_HISTORY,
+	TEXT_MENTION_EVERYONE,
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+	VOICE_CONNECT,
+	VOICE_SPEAK,
+	VOICE_MUTE_MEMBERS,
+	VOICE_DEAFEN_MEMBERS,
+	VOICE_MOVE_MEMBERS,
+	VOICE_USE_VAD,
+	}
+});
